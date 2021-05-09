@@ -15,7 +15,9 @@ function Landing() {
     const showLogin = () => {
         setModal({
             type: "SHOW_LOGIN"
-        })
+        });
+        const windowsWidth = window.document.body.clientWidth;
+        console.log(windowsWidth);
     }
 
     return (
